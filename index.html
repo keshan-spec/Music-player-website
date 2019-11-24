@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Player</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        Keshan
+      </div>
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search for songs" />
+      </div>
+      <div class="profile-img">
+        <!-- <img src="assets/images/profile.jpg" alt="profile" /> -->
+        <a class="avatar has-story" href="#">
+          <img src="assets/images/profile.jpg" alt="profile" />
+        </a>
+        <span>Keshan Dev</span>
+      </div>
+    </div>
+    <div class="body_grid_container">
+      <div class="side-nav">
+        <div class="nav-items">
+          <h2>Navigate</h2>
+          <a href="" class="nav-links"><i class="fas fa-home"></i> Home</a>
+          <a href="" class="nav-links"><i class="fas fa-search"></i> Browse</a>
+          <a href="" class="nav-links"><i class="fas fa-star"></i> For you</a>
+        </div>
+
+        <div class="library-items">
+          <h2>Your links</h2>
+          <a href="" class="nav-links"
+            ><i class="fas fa-compact-disc"></i> Playlists</a
+          >
+          <a href="" class="nav-links"
+            ><i class="fas fa-music"></i> Recent listened</a
+          >
+          <a href="" class="nav-links"
+            ><i class="fas fa-plus"></i> Create playlist</a
+          >
+        </div>
+      </div>
+      <div class="content">
+        <section class="recommendations">
+          <div class="recommendation_items">
+            <img src="assets/images/recommendations/Koala.jpg" alt="rec" />
+            <h2>Your release radar</h2>
+          </div>
+          <div class="recommendation_items">
+            <img src="assets/images/recommendations/bg2.jpg" alt="rec" />
+            <h2>Your release radar</h2>
+          </div>
+          <div class="recommendation_items">
+            <img src="assets/images/recommendations/bg3.jpg" alt="rec" />
+            <h2>Your release radar</h2>
+          </div>
+        </section>
+        <div class="inner_content">
+          <section class="trending">
+            <div class="trending_items">
+              <div class="thumbnail-container">
+                <img
+                  src="assets/images/recommendations/Koala.jpg"
+                  alt="thumbnail"
+                />
+                <span class="play-button"><i class="fas fa-play"></i></span>
+              </div>
+              <div class="info">
+                <!-- <span class="likes">40</span> -->
+                <span class="item_name">Everything i wanted</span>
+                <span class="item_artist">
+                  Billie Eilish
+                </span>
+              </div>
+            </div>
+            <div class="trending_items">
+              <div class="thumbnail-container">
+                <img
+                  src="assets/images/song.jpg"
+                  alt="thumbnail"
+                />
+                <span class="play-button"><i class="fas fa-play"></i></span>
+              </div>
+              <div class="info">
+                <!-- <span class="likes">40</span> -->
+                <span class="item_name">Ocean Eyes</span>
+                <span class="item_artist">
+                  Billie Eilish
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class="audio-player">
+            <div class="current_song">
+              <div class="song-info">
+                <img src="" alt="song-thumbnail" />
+                <span class="item_name">Everything i wanted</span>
+                <span class="item_artist">
+                  Billie Eilish
+                </span>
+                <span class="more">More..</span>
+              </div>
+              <div class="song-controls">
+                <span class="timer">1:20</span>
+                <span class="prev-btn">Prev</span>
+                <span class="play-btn">Play</span>
+                <span class="next-btn">Next</span>
+              </div>
+              <div class="songs_playlist">
+                <ul class="songs">
+                  <li>
+                    <span class="mini_play_btn">Play</span>
+                    <span class="item_name">Everything i wanted</span>
+                    <span class="item_duration">3:20</span>
+                  </li>
+                  <li class="playing_song">
+                    <span class="mini_play_btn">Play</span>
+                    <span class="item_name">Everything i wanted</span>
+                    <span class="item_duration">3:20</span>
+                  </li>
+                  <li>
+                    <span class="mini_play_btn">Play</span>
+                    <span class="item_name">Everything i wanted</span>
+                    <span class="item_duration">3:20</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
